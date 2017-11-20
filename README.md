@@ -14,14 +14,14 @@
 
 ## Tabla de contenidos
 
-* [Tipos de Patrones de Diseño](#Tipos de Patrones de Diseño)
-* [Como instalar el Proyecto](#Como instalar el Proyecto)
-* [Changelog](#Changelog)
-* [Contribuir al proyecto](#Contribuir al proyecto)
-* [Crees que haz encontrado un bug?](#Crees que haz encontrado un bug?)
-* [Codigo de Conducta](#Codigo de Conducta)
+* [Tipos de Patrones de Diseño](#tipos-de-patrones-de-diseno)
+* [Como instalar el Proyecto](#como-instalar-el-proyecto)
+* [Changelog](#changelog)
+* [Contribuir al proyecto](#contribuir-al-proyecto)
+* [Crees que haz encontrado un bug?](#crees-que-haz-encontrado-un-bug)
+* [Codigo de Conducta](#codigo-de-conducta)
 
-## Tipos de Patrones de Diseño
+## Tipos de Patrones de Diseno
 
 Gof ha estimado 3 tipos, estos son: 
 
@@ -77,17 +77,17 @@ Si deseas crear objetos puedes basarte en estos:
 
 ## Como instalar el Proyecto
 
-Solo importalo como un proyecto de gradle ( Build Managment System, en pocas palabras maneja las dependencias y tareas de compilacion), para mayor información ver el archivo [SETUP.md](Setup.md)
+Solo importalo como un proyecto de gradle ( Build Managment System, en pocas palabras maneja las dependencias y tareas de compilacion), para mayor información ver el archivo [SETUP.md](SETUP.md)
 
 ## Changelog
 
-Todo cambio es registrado en este archivo [CHANGELOG.md](Changelog.md), utilízalo en tus proyectos, no lo olvides.
+Todo cambio es registrado en este archivo [CHANGELOG.md](CHANGELOG.md), utilízalo en tus proyectos, no lo olvides.
 
 ## Contribuir al proyecto
 
 Por favor lee [CONTRIBUTING.md](CONTRIBUTING.md) archivo con guias de colaboracion.
 
-## Crees que haz encontrado un bug?
+## Crees que haz encontrado un bug
 
 Por favor deja constancia en [issues](https://github.com/stephanoapiolaza/dessign-pattern/issues) del repositorio en git
 y realizaremos un seguimiento en conjunto.
