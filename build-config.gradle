@@ -1,0 +1,15 @@
+/* ============================================================================
+   This file contains the configurations for 
+   This Project
+   ============================================================================
+   
+   Included from: "${rootProject.projectDir}/build.gradle"
+   ============================================================================
+ */
+subprojects {
+
+    group = "com.sapiolaza.dessignpattern"
+    // No se modifica versionn del proyecto, hasta externalizar en nexus o artifactory
+    version = "0.1.0"
+    
+}

@@ -1,0 +1,28 @@
+/* ============================================================================
+ * Main build file for project 'dessign-pattern'
+ * ============================================================================
+ * This file was initial generated for the project
+ * using 'Full multi gradle project (Java)' template
+ * ============================================================================
+ */
+ 
+description = 'Bundle Project for the application'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects{
+    apply from: "${rootProject.projectDir}/libraries.gradle"
+}
+
+/* -------------------------------- */
+/* - Include other gradle scripts - */
+/* -------------------------------- */
+apply from: "${rootProject.projectDir}/build-java.gradle"
+apply from: "${rootProject.projectDir}/build-maven.gradle"
+apply from: "${rootProject.projectDir}/build-eclipse.gradle"
+apply from: "${rootProject.projectDir}/build-config.gradle"
+apply from: "${rootProject.projectDir}/build-dependencies.gradle"

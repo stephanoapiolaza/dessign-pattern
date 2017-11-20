@@ -1,0 +1,16 @@
+/* ============================================================================
+   This file contains the configurations for 
+   Dependencies
+   ============================================================================
+   
+   Included from: "${rootProject.projectDir}/build.gradle"
+   ============================================================================
+ */
+subprojects {
+
+    dependencies {
+    	// https://mvnrepository.com/artifact/junit/junit
+		testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+    
+}

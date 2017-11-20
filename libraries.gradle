@@ -1,0 +1,16 @@
+/* ============================================================================
+   Library definitions for project 'apolo-multi-project'
+   ============================================================================
+   Define here library dependencies and use them inside your build.gradle
+   files in sub projects.
+  
+   Included from: "${rootProject.projectDir}/build.gradle"
+   ============================================================================
+ 
+ */
+ 
+ext {
+
+	library = []
+	
+}
