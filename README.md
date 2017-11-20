@@ -5,7 +5,7 @@
   <h3 align="center">Guía Patrones de Diseño</h3>
 
   <p align="center">
-    En la actualidad es una <b>obligacion<b/> manejar los patrones de diseño para introducirse de forma 
+    En la actualidad es una <b>obligacion</b> manejar los patrones de diseño para introducirse de forma 
     avanzada en la programación, por esta razón este proyecto te introducirá a fondo en los <b>patrones 
     GOF (Gang of Four)</b> para que puedas crear tus propias arquitecturas.
   </p>
