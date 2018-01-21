@@ -6,10 +6,13 @@
    Included from: "${rootProject.projectDir}/build.gradle"
    ============================================================================
  */
+ 
+// No se modifica versionn del proyecto, hasta externalizar en nexus o artifactory
+version = "0.2.0"
+
 subprojects {
 
-    group = "com.sapiolaza.dessignpattern"
-    // No se modifica versionn del proyecto, hasta externalizar en nexus o artifactory
-    version = "0.1.0"
+    group = "com.stephanoapiolaza.dessignpattern"
+    targetCompatibility = '1.8'
     
 }

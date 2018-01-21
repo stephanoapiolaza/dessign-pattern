@@ -1,0 +1,5 @@
+description = 'The Singleton patron creacional de objetos'
+
+dependencies {
+
+}

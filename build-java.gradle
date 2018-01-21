@@ -8,9 +8,8 @@
  */
 
 subprojects {
+
     apply plugin: 'java'
-    
-    targetCompatibility = '1.8'
 	
 	/* Setup UTF-8 for compile AND test compilation*/
 	[ compileJava, compileTestJava ]*.options*.encoding = 'UTF-8'
