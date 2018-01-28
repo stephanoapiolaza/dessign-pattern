@@ -14,5 +14,6 @@ include 'abstract-factory';
 include 'singleton';
 include 'builder';
 include 'factory';
+include 'prototype';
 
 rootProject.name = 'dessign-pattern'

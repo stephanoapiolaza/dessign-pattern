@@ -1,3 +1,9 @@
+# 0.3.0(27-01-2018)
+
+### Features
+
+* **prototype**: Se agrega patron creacional de objeto.
+
 # 0.2.0(21-01-2018)
 
 ### Features

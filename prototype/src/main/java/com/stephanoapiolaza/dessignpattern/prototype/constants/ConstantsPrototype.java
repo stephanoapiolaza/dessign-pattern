@@ -21,18 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.stephanoapiolaza.dessignpattern.factory;
-
-import com.stephanoapiolaza.dessignpattern.factory.enumeration.FiguraTipoEnum;
-import com.stephanoapiolaza.dessingpattern.factory.impl.Circulo;
-import com.stephanoapiolaza.dessingpattern.factory.impl.Cuadrado;
-import com.stephanoapiolaza.dessingpattern.factory.impl.Triangulo;
+package com.stephanoapiolaza.dessignpattern.prototype.constants;
 
 /**
- * Clase que representa el patron de disenno factory
- * para crear instancias unicas por objeto, ayudando a su 
- * reutilizacion y optimizacion, ideal para realizar tareas
- * de cache
+ * Clase con constantes para las salidas del dibujo
  * 
  * @see {@link https://www.tutorialspoint.com/design_pattern/factory_pattern.htm}
  * @category Patrones Creacionales - Clase
@@ -40,32 +32,19 @@ import com.stephanoapiolaza.dessingpattern.factory.impl.Triangulo;
  * @author Stephano.Apiolaza - stephanoapiolaza@gmail.com
  *
  */
-public class FiguraFactory {
+public class ConstantsPrototype {
 
-    /**
-     * Constructor Privado
-     */
-    private FiguraFactory() {
-        
-    }
+    public static final String ID_CIRCLE = "1";
+    public static final String ID_SQUARE = "2";
+    public static final String ID_TRIANGLE = "3";
+    
+    public static final String OUTPUT_CIRCLE = "Yo soy un circulo";
+    public static final String OUTPUT_SQUARE = "Yo soy un cuadrado";
+    public static final String OUTPUT_TRIANGLE = "Yo soy un triangulo";
     
     /**
-     * Retorna un tipo de figura disponible
-     * @param tipoFigura enum con los tipos de figura disponibilizados
-     * @return tipo de figura solicitada
+     * Constructor oculto
      */
-    public static Figura getFigura(FiguraTipoEnum tipoFigura) {
-        if ( null == tipoFigura ) {
-            return null;
-        }
-        if ( tipoFigura.equals(FiguraTipoEnum.CIRCULO) ) {
-            return new Circulo();
-        } else if ( tipoFigura.equals(FiguraTipoEnum.CUADRADO) ) {
-            return new Cuadrado();
-        } else if ( tipoFigura.equals(FiguraTipoEnum.TRIANGULO) ) {
-            return new Triangulo();
-        }
-        return null;
-    }
+    private ConstantsPrototype() {}
     
 }
