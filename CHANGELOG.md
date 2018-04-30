@@ -1,3 +1,9 @@
+# 0.4.0(30-04-2018)
+
+### Features
+
+* **abstract.factory**: Se agrega patron creacional de objeto.
+
 # 0.3.0(27-01-2018)
 
 ### Features

@@ -35,18 +35,19 @@ Si deseas crear objetos puedes basarte en estos:
 
 ### Clases
 
-* **Factory Method**
+* **Factory Method**: permite crear objetos dinamicamente, donde retorna el solicitado por parametro. 
 
 ### Objetos
 
-* **Abstract Factory**
-* **Builder**
-* **Prototype**
-* **Singleton**
+* **Abstract Factory**: permite la creacion de factoria dinamicamente, donde se retorna la solicitada por parametro. (capa adicional al patron factory)
+* **Builder**: permite crear objetos complejos, donde un orquestador o clase que se encarga de construir el elemento, lo fabrica paso a paso. Ademas, se suele atribuir a este patron la reduccion de complejidad de los 
+pojo (clases con get y set, solo tiene el dominio o campos de una seccion del modelo) al annadir metodos estaticos concatenables que retornar la misma instancia para modificar los atributos privados.
+* **Prototype**: permite optimizar la creacion de objetos a traves de un proceso de clonacion, solo se requiere implementar la interfaz cloneable y sobreescribir el metodo clone.
+* **Singleton**: permite asegurar una unica instancia por objetos, reutilizandolo a lo largo de una aplicacion.
 
 ## Patrones Estructurales
 
-### Objetos
+### Objetoss
 
 * **Adapter**
 * **Bridge**
