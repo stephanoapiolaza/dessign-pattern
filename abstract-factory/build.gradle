@@ -1,4 +1,4 @@
-description = 'The Abstract Factory Example to Learn'
+description = 'The Abstract Factory patron creacional de objetos'
 
 dependencies {
 

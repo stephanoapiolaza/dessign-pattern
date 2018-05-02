@@ -10,6 +10,10 @@
 
 
 // To declare projects as part of a multi-project build use the 'include' method
-include 'abstract-factory'
+include 'abstract-factory';
+include 'singleton';
+include 'builder';
+include 'factory';
+include 'prototype';
 
 rootProject.name = 'dessign-pattern'

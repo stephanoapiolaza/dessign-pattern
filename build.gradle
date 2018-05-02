@@ -15,7 +15,7 @@ buildscript {
 }
 
 allprojects{
-    apply from: "${rootProject.projectDir}/libraries.gradle"
+    apply from: "${rootProject.projectDir}/build-libraries.gradle"
 }
 
 /* -------------------------------- */
