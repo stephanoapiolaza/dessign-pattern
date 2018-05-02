@@ -47,9 +47,9 @@ pojo (clases con get y set, solo tiene el dominio o campos de una seccion del mo
 
 ## Patrones Estructurales
 
-### Objetoss
+### Objetos
 
-* **Adapter**
+* **Adapter**: permite unir dos interfaces que no tienen relacion alguna, por ejemplo cuando instalas una tarjeta micro-sd dentro de un adaptador para tarjetas sd, son incompatibles, pero gracias a ese medio la tarjeta puede funcionar sin problemas. Tecnicamente, una clase realiza el trabajo de enlazar las interfaces, de acuerdo a los parametros de entrada.
 * **Bridge**
 * **Composite**
 * **Decorator**

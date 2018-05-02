@@ -1,3 +1,9 @@
+# 0.5.0(02-05-2018)
+
+### Features
+
+* **adapter**: Se agrega patron estructural de objeto.
+
 # 0.4.0(30-04-2018)
 
 ### Features

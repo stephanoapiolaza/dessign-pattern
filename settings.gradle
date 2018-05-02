@@ -16,4 +16,6 @@ include 'builder';
 include 'factory';
 include 'prototype';
 
+include 'adapter';
+
 rootProject.name = 'dessign-pattern'
