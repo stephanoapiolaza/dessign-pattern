@@ -26,6 +26,7 @@ package com.stephanoapiolaza.dessignpattern.abstractfactory;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.color.Color;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.color.ColorFactory;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.ColorTipoEnum;
+import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.FactoryTipoEnum;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.FiguraTipoEnum;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.shape.Figura;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.shape.FiguraFactory;
@@ -63,10 +64,10 @@ public abstract class AbstractFactory {
 	 * @param choice factoria a crear
 	 * @return factoria solicitada
 	 */
-	public static AbstractFactory getFactory(String choice) {
-		if ( choice.equals("SHAPE")) {
+	public static AbstractFactory getFactory(FactoryTipoEnum choice) {
+		if ( choice.equals(FactoryTipoEnum.SHAPE)) {
 			return new FiguraFactory();
-		} else if ( choice.equals("COLOR")) {
+		} else if ( choice.equals(FactoryTipoEnum.COLOR)) {
 			return new ColorFactory();
 		}
 		return null;
