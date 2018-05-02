@@ -29,6 +29,7 @@ import org.junit.Test;
 
 import com.stephanoapiolaza.dessignpattern.abstractfactory.AbstractFactory;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.ColorTipoEnum;
+import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.FactoryTipoEnum;
 import com.stephanoapiolaza.dessignpattern.abstractfactory.enumeration.FiguraTipoEnum;
 import com.stephanoapiolaza.dessingpattern.abstractfactory.color.impl.Azul;
 import com.stephanoapiolaza.dessingpattern.abstractfactory.shape.impl.Cuadrado;
@@ -46,13 +47,13 @@ public class AbstractFactoryTest {
 
     @Test
     public void getColor_isAzul() {
-    	AbstractFactory factories = AbstractFactory.getFactory("COLOR");
+    	AbstractFactory factories = AbstractFactory.getFactory(FactoryTipoEnum.COLOR);
         assertEquals(new Azul().getColor(), factories.getColor(ColorTipoEnum.AZUL).getColor());
     }
     
     @Test
     public void getFigura_isCuadrado() {
-    	AbstractFactory factories = AbstractFactory.getFactory("SHAPE");
+    	AbstractFactory factories = AbstractFactory.getFactory(FactoryTipoEnum.SHAPE);
         assertEquals(new Cuadrado().getDibujo(), factories.getShape(FiguraTipoEnum.CUADRADO).getDibujo());
     }
     
